@@ -1,0 +1,28 @@
+ggplot Presentation
+========================================================
+author: Data Visualation Club
+date: 1/12/18
+autosize: true
+
+First Slide
+========================================================
+
+Goals of presentation 
+
+- Get fimailar with ggplot2 package
+- Code verious layers for a plot
+- Understand themes and how to use them
+
+Installing Package
+========================================================
+
+```{r, eval=FALSE}
+install.packages("ggplot2")
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
