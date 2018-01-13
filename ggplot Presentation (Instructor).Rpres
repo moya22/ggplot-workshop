@@ -48,11 +48,9 @@ pander(data)
 ```
 
 
-
-
 Slide With Plot
 ========================================================
 
 ```{r, echo=FALSE}
-plot(cars)
+ggplot(cars)
 ```
