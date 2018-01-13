@@ -11,7 +11,7 @@ Goals of presentation
 
 - Get fimailar with ggplot2 package
 - Code verious layers for a plot
-- Understand themes and how to use them
+- Understand themes
 
 Installing Package
 ========================================================
@@ -35,6 +35,19 @@ b <- c(11:20)
 data <- data.frame(X = a, Y = b)
 data
 ```
+
+
+Pander data
+========================================================
+```{r, echo=FALSE}
+library(pander)
+```
+
+```{r}
+pander(data)
+```
+
+
 
 
 Slide With Plot
