@@ -20,6 +20,13 @@ Installing Package
 install.packages("ggplot2")
 ```
 
+Loading Package
+========================================================
+```{r}
+library(ggplot2)
+```
+
+
 Slide With Plot
 ========================================================
 
